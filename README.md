@@ -1039,10 +1039,10 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
+ ### ./funcex.sh 
 ![output](./84.png)
  
- ./funcex.sh 1 2
+ ### ./funcex.sh 1 2
 ![output](./85.png)
  
 cat argshift.sh
@@ -1073,7 +1073,7 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
